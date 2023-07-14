@@ -1,0 +1,357 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+html {
+scroll-behavior: smooth;
+}
+
+.container{
+    background-image: url(images/Object.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+header{
+    padding: 35px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+    font-weight: bold;
+}
+.section-cont{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+h1{
+    font-size: 120px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+}
+
+.sub h3{
+    padding: 10px;
+}
+
+.sub-btn{
+   text-align: center;
+   background-color: #C271FF;
+   padding: 5px;
+   box-shadow: 0px 2px 20px 0px #00000080;
+   width: 162px;
+   height: 44px;
+   color: white;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.section-sub3{
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+.sect3-span{
+    color: #C271FF;
+}
+
+.pro-cont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pro-sub-cont{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pro-name{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.pro-text{
+    font-size: 12px;
+}
+
+.pro-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial{
+    background: #C271FF;
+    color: white;
+}
+
+.testimonial-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.a-name{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.a-pos{
+    font-style: italic;
+}
+
+.sect4-h1{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sect4-span{
+    color: #C271FF;
+}
+
+/** Tutorial Section **/
+
+.tutorial-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 50px;
+    width: auto;
+}
+
+.tutorial-sub-cont{
+    text-align: center;
+    width: auto;
+}
+
+.tutorial-img-cont{
+    position: relative;
+}
+
+.tutorial-img{
+
+}
+
+.play-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tutorial-title{
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.tutorial-description{
+    font-size: 14px;
+    word-wrap: break-word;
+    text-align: left;
+    line-height: 24px;
+}
+
+.tutorial-info{
+    padding-left: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rating-cont{
+    display: flex;
+    margin-top: 3px;
+    padding-left: 5px;
+}
+
+.rating-person{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.rating-person-name, .rating-time{
+    font-size: 14px;
+    line-height: 27px;
+    color: #C271FF;
+}
+
+.rating-cont-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.rating-img{
+    height: 15px;
+}
+
+.membership-sect{
+    background: #071629;
+    text-align: center;
+}
+
+.membership-title{
+    padding-top: 50px;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.membership-cont{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.membership-info{
+    text-align: center;
+    color: white;
+}
+
+.membership-title-span{
+    color: #C271FF;
+}
+
+.membership-info-title{
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.membership-info-text{
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.membership-btn{
+    background-color: #C271FF;
+    padding: 5px;
+    box-shadow: 0px 2px 20px 0px #00000080;
+    width: 162px;
+    height: 44px;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.faq{
+    font-family: Source Sans Pro;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 75px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #071629;
+    margin-top: 50px;
+}
+
+.faq-cont{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    gap: 20px;
+}
+
+.faq-title{
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.faq-text{
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+footer{
+    background: #071629;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.copyright{
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-imgs{
+    display: flex;
+    justify-content: space-between
+}
+
+.footer-social-link-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
